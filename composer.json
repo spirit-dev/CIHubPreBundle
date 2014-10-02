@@ -12,11 +12,15 @@
         }
     ],
     "require": {
-        "spirit-dev/ci-hub-core-bundle": "dev-master"
+        "spirit-dev/ci-hub-core-bundle": "0.x-dev"
     },
     "autoload": {
         "psr-0": { "SpiritDev\\Bundle\\CIHubPreBundle": "" }
     },
     "target-dir": "SpiritDev/Bundle/CIHubPreBundle",
-    "minimum-stability": "dev"
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x-dev"
+        }
+    }
 }
